@@ -1,0 +1,59 @@
+.statistics {
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.title {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+}
+.statList {
+  display: flex;
+  border: 1px solid #000000;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 12px;
+  width: 72px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.label {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #f0f8ff;
+}
+.percentage {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #f0f8ff;
+}
+.item:nth-child(even) {
+  background-color: #0ed4d4;
+}
+.item:nth-child(odd) {
+  background-color: #9b2cd2;
+}
+.item:first-child {
+  border-bottom-left-radius: 4px;
+}
+.item:last-child {
+  border-bottom-right-radius: 4px;
+}
